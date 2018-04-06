@@ -250,19 +250,19 @@ var ImageGallery = function (_React$Component) {
 
     // hikaru
     _this._slideLeft = function (event) {
-      if (_this._space){
-        _this._space = false
-        return
-      }
+      // if (_this._space){
+      //   _this._space = false
+      //   return
+      // }
       _this.slideToIndex(_this.state.currentIndex - 1, event);
     };
 
     _this._slideRight = function (event) {
-      console.log("fuck right")
-      if (_this._space){
-        _this._space = false
-        return
-      }
+      // console.log("fuck right")
+      // if (_this._space){
+      //   _this._space = false
+      //   return
+      // }
       _this.slideToIndex(_this.state.currentIndex + 1, event);
     };
 
